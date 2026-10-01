@@ -58,7 +58,7 @@ public class Main {
 		System.out.println(" ");
 		String ready = in.nextLine();
 		System.out.println(" ");
-		System.out.println("Prefect, now that you are " + ready + " here is the menu.");
+		System.out.println("Perfect, now that you are " + ready +" here is the menu.");
 		System.out.println(" ");
 		System.out.println("Soup Dumgpling Menu:");
 		System.out.println(" ");
@@ -85,8 +85,8 @@ public class Main {
 		System.out.println("Hmmmm, " + order + ". Good choice!");
 		System.out.println(" ");
 		System.out.println("Is it your birthday?");
-		System.out.println(" ");
 		 String answer = in.nextLine();
+		System.out.println(" ");
 		  
 		   if (answer.equals("yes"))  {
 	        System.out.println("Amazing, we will bring out a peice of our signiture strawberry short cake!");
@@ -101,15 +101,16 @@ public class Main {
 			total =  (total * 0.9);
 		}
 		System.out.println("Would you like to donate 1 dollar to charity?");
-		
+		System.out.println(" ");
 		   String answer1 = in.nextLine();
+			System.out.println(" ");
 		  
 		   if (answer1.equals("yes"))  {
 	        total = total + 1;
 	        } else if (answer1.equals("no"))	{
 	           total = total + 0;
 	        }
-		System.out.printf("Your total will come out to: " + total* 1.13 + " , enjoy your meal!");{
+		System.out.printf("Your total will come out to: " + total* 1.13 +", enjoy your meal!");{
 			
 		}}}
 		
